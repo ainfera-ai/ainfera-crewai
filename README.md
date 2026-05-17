@@ -9,7 +9,7 @@ audit chain.
 git clone https://github.com/ainfera-ai/examples-crewai
 cd examples-crewai
 pip install -r requirements.txt
-export AINFERA_API_KEY=ai_live_...  # https://app.ainfera.ai/signup
+export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
 python main.py
 ```
 
