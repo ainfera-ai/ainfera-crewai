@@ -1,4 +1,4 @@
-# examples-crewai — Ainfera + CrewAI
+# ainfera-crewai — Ainfera + CrewAI
 
 Multi-agent content team backed by Ainfera. Two agents, two tasks, one
 audit chain.
@@ -6,8 +6,8 @@ audit chain.
 ## Quickstart
 
 ```bash
-git clone https://github.com/ainfera-ai/examples-crewai
-cd examples-crewai
+git clone https://github.com/ainfera-ai/ainfera-crewai
+cd ainfera-crewai
 pip install -r requirements.txt
 export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
 python main.py
@@ -38,9 +38,9 @@ Every agent in the crew uses it.
 
 ## Other frameworks
 
-- [examples-openai-compat](https://github.com/ainfera-ai/examples-openai-compat) — universal wedge (no framework)
-- [examples-langchain](https://github.com/ainfera-ai/examples-langchain) — LangChain
-- [examples-google-adk](https://github.com/ainfera-ai/examples-google-adk) — Google ADK
-- [examples-mcp](https://github.com/ainfera-ai/examples-mcp) — Claude Desktop + Cursor
+- [ainfera-openai-compat](https://github.com/ainfera-ai/ainfera-openai-compat) — universal wedge (no framework)
+- [ainfera-langchain](https://github.com/ainfera-ai/ainfera-langchain) — LangChain
+- [ainfera-google-adk](https://github.com/ainfera-ai/ainfera-google-adk) — Google ADK
+- [ainfera-mcp](https://github.com/ainfera-ai/ainfera-mcp) — Claude Desktop + Cursor
 
 Apache 2.0. © Ainfera Inc. 2026.
