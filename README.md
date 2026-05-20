@@ -47,5 +47,6 @@ Every agent in the crew uses it.
 - [ainfera-langchain](https://github.com/ainfera-ai/ainfera-langchain) — LangChain
 - [ainfera-google-adk](https://github.com/ainfera-ai/ainfera-google-adk) — Google ADK
 - [ainfera-mcp](https://github.com/ainfera-ai/ainfera-mcp) — Claude Desktop + Cursor
+- [ainfera-letta](https://github.com/ainfera-ai/ainfera-letta) — Letta (MemGPT)
 
 Apache 2.0. © Ainfera Inc. 2026.
