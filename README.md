@@ -12,6 +12,12 @@ export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
 python main.py
 ```
 
+Or with `curl` only:
+
+```bash
+./curl-example.sh
+```
+
 ## What this shows
 
 - Multi-agent flows audited end-to-end (researcher → writer)
