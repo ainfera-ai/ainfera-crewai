@@ -4,10 +4,17 @@ import os
 
 from crewai import LLM, Agent, Crew, Task
 
+# SP-9 PR-A family-fix · standardized env-var contract across the
+# adapter family: AINFERA_API_KEY + AINFERA_API_URL + AINFERA_MODEL.
+# CrewAI's LLM expects an `openai/<slug>` prefix; we prepend it when
+# the env var doesn't already carry one so callers can pass plain
+# `ainfera-inference` without the litellm-style prefix.
+_raw_model = os.environ.get("AINFERA_MODEL", "ainfera-inference")
+_model = _raw_model if "/" in _raw_model else f"openai/{_raw_model}"
 llm = LLM(
-    model="openai/claude-opus-4-7",
+    model=_model,
     api_key=os.environ["AINFERA_API_KEY"],
-    base_url="https://api.ainfera.ai/v1",
+    base_url=os.environ.get("AINFERA_API_URL", "https://api.ainfera.ai/v1"),
 )
 
 researcher = Agent(
