@@ -33,7 +33,7 @@ CrewAI's `LLM` class accepts an OpenAI-compatible base URL natively:
 
 ```python
 llm = LLM(
-    model="openai/claude-opus-4-7",
+    model="openai/ainfera-inference",
     api_key=os.environ["AINFERA_API_KEY"],
     base_url="https://api.ainfera.ai/v1",
 )
