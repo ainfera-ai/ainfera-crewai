@@ -8,7 +8,7 @@ CrewAI integration + Ainfera Routing. Multi-agent crew with one audit chain — 
 git clone https://github.com/ainfera-ai/ainfera-crewai
 cd ainfera-crewai
 pip install -r requirements.txt
-export AINFERA_API_KEY=ai_infera_...  # https://app.ainfera.ai/signup
+export AINFERA_API_KEY=ainfera_...  # https://app.ainfera.ai/signup
 python main.py
 ```
 
