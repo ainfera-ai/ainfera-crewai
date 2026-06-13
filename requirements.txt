@@ -1,2 +1,2 @@
-crewai>=0.80.0
+crewai[litellm]>=0.80.0
 ainfera>=1.1.0
