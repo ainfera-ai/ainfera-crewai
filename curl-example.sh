@@ -2,7 +2,7 @@
 # ainfera-crewai — minimal curl-only flow, no CrewAI install needed.
 set -euo pipefail
 
-BASE="${AINFERA_BASE_URL:-https://api.ainfera.ai}"
+BASE="${AINFERA_API_URL:-https://api.ainfera.ai}"
 
 if [[ -z "${AINFERA_API_KEY:-}" ]]; then
   echo "── 1 · Sign up a fresh Agent ──"

@@ -9,6 +9,7 @@ git clone https://github.com/ainfera-ai/ainfera-crewai
 cd ainfera-crewai
 pip install -r requirements.txt
 export AINFERA_API_KEY=ainfera_...  # https://app.ainfera.ai/signup
+# Optional overrides: AINFERA_API_URL (default: https://api.ainfera.ai/v1), AINFERA_MODEL (default: ainfera-inference)
 python main.py
 ```
 
